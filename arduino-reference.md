@@ -36,5 +36,6 @@ sudo arduino-cli compile --fqbn arduino:avr:uno MyFirstSketch
 sudo arduino-cli core install arduino:avr
 sudo arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno MyFirstSketch
 ```
-
-[Tutorial](https://github.com/Freenove/Freenove_RFID_Starter_Kit_V2.0/blob/master/Tutorial.pdf)
+An excellent tutorial for programmes one could write for
+the Arduino can be found on the 
+[Freenova Github repository](https://github.com/Freenove/Freenove_RFID_Starter_Kit_V2.0/blob/master/Tutorial.pdf).
