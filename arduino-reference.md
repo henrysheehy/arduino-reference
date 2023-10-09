@@ -1,7 +1,7 @@
 # Microcontroller reference
 
 Initialise the `.ino` file (thought of as a C file
-with additional arduino libraries).
+with additional arduino libraries):
 ```bash
 arduino-cli config init
 ```
