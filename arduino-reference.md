@@ -32,7 +32,8 @@ sudo arduino-cli core install arduino:avr
 For the freenova microcontroller, 
 the `bash` commands are:
 ```bash
-sarduino-cli compile --fqbn arduino:avr:uno MyFirstSketchudo arduino-cli core install arduino:avr
+sudo arduino-cli compile --fqbn arduino:avr:uno MyFirstSketch
+sudo arduino-cli core install arduino:avr
 sudo arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno MyFirstSketch
 ```
 
